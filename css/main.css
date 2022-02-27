@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.title{
+   margin-bottom: 20px;
+    text-align: center;
+    color: rgb(235, 69, 9);
+}
+
+.section{
+    padding:  20px 50px;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 400px;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+.login__form{
+    
+    margin: 0 auto;
+    width: 200px;
+    
+    
+}
+button,input,.users__item {
+    margin: 10px;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    /* text-align: center; */
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  button:hover,input:hover,.users__item:hover{
+    background-color: rgb(249,250,251);
+  }
+  
+  button:focus,input:focus,.users__item:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  
+  button:focus-visible,input:focus-visible,.users__item:focus:visable {
+    box-shadow: none;
+  }
+.users__list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0;
+
+  }
+  .users__item{
+    overflow-y: hidden;
+    padding: 20px;
+    list-style-type: none;
+  }
+.log__out{
+   background-color: #333 !important;
+   opacity: 0.8;
+   color: #fff;
+   position: fixed;
+   right: 20px;
+   bottom: 0px;
+ }
+ .more__btn{
+   
+   margin-left: 230px;
+   margin-bottom: 0;
+   
+   background-color: #333 !important;
+   opacity: 0.8;
+   color: #fff;
+  }
+  .btn__back{
+    position: fixed;
+    background-color: #333 !important;
+   opacity: 0.8;
+   color: #fff;
+  }
+  .more__posts__btn{
+    margin-left: 230px;
+   margin-bottom: 0;
+    background-color: #333 !important;
+   opacity: 0.8;
+   color: #fff;
+  }
